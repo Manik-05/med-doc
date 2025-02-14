@@ -1,0 +1,3 @@
+<h2> Created a medical platform website to centralise patients data and many more...
+
+<h3> Problem Statement:Patient medical records are often fragmented across multiple hospitals, making it challenging for doctors to access a comprehensive medical history. This lack of unified data can result in treatment inefficiencies, misdiagnoses, and redundant test.
