@@ -284,3 +284,57 @@
     letter-spacing: 0;
     line-height: normal;
 }
+
+#myInput2{
+    top: 250px;
+    left: 100px;
+    
+    margin: 5px;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefff;
+
+    width: 250px;
+    height: 40px;
+    font-size: 20px; /* Increase text size */
+    padding: 10px;  /* Add padding for better spacing */
+}
+
+#myInput3{
+    
+    left: 100px;
+    
+    margin: 5px;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefff;
+
+    width: 250px;
+    height: 40px;
+    font-size: 20px; /* Increase text size */
+    padding: 10px;  /* Add padding for better spacing */
+}
+
+#myInput4{
+    top: 250px;
+    left: 100px;
+    
+    margin: 5px;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefff;
+
+    width: 250px;
+    height: 40px;
+    font-size: 20px; /* Increase text size */
+    padding: 10px;  /* Add padding for better spacing */
+}
