@@ -1640,4 +1640,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    width: 200px;
+    height: 25px;
+    font-size: 18px; /* Increase text size */
+    padding: 10px;  /* Add padding for better spacing */
 }
