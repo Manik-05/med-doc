@@ -202,6 +202,50 @@
     border-radius: 8px;
 }
 
+.button1{
+    display: flex;
+    width: 159px;
+    height: 43px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 4px 12px;
+
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+
+    top: 0;
+    left: 0;
+    background-color: #4a49e2;
+    border-radius: 8px;
+}
+
+.button2 {
+    display: flex;
+    width: 159px;
+    height: 43px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 4px 12px;
+
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+
+    top: 0;
+    left: 276px;
+    background-color: #a7a7ff;
+    border-radius: 8px;
+}
+
 .signup .text-wrapper-4 {
     position: relative;
     width: fit-content;
@@ -239,4 +283,58 @@
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
+}
+
+#myInput2{
+    top: 250px;
+    left: 100px;
+    
+    margin: 5px;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefff;
+
+    width: 250px;
+    height: 40px;
+    font-size: 20px; /* Increase text size */
+    padding: 10px;  /* Add padding for better spacing */
+}
+
+#myInput3{
+    
+    left: 100px;
+    
+    margin: 5px;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefff;
+
+    width: 250px;
+    height: 40px;
+    font-size: 20px; /* Increase text size */
+    padding: 10px;  /* Add padding for better spacing */
+}
+
+#myInput4{
+    top: 250px;
+    left: 100px;
+    
+    margin: 5px;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefff;
+
+    width: 250px;
+    height: 40px;
+    font-size: 20px; /* Increase text size */
+    padding: 10px;  /* Add padding for better spacing */
 }
