@@ -31,7 +31,7 @@
     height: 1601px;
     top: 22px;
     left: 0;
-    background-color: #efefff;
+    background-color: white;
 }
 
 .main-desktop-page .bottom-part {
@@ -1098,12 +1098,24 @@
     white-space: nowrap;
 }
 
+#myInput{
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background-color: #fcfcfc;
+
+}
+
 .main-desktop-page .iconamoon-search {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 26px;
     height: 26px;
-    top: 0;
-    left: 230px;
+    top: -5px;
+    bottom: 100px;
+    left: 200px;
 }
 
 .main-desktop-page .group-26 {
@@ -1578,7 +1590,7 @@
 .main-desktop-page .text-wrapper-44 {
     position: absolute;
     width: 124px;
-    top: 19px;
+    top: 20px;
     left: 0;
     font-family: "Montserrat-Regular", Helvetica;
     font-weight: 400;
@@ -1596,10 +1608,41 @@
     left: 312px;
 }
 
-.para {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
+
+
+.faq-question {
+    width: 100%; /* Ensures questions take full width within the container */
+    padding: 10px;
+    background-color: #f9f9f9; /* Light background for visibility */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Updated FAQ Section Styling */
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: flex-start; /* Aligns content to the left */
+    height: 100vh; /* Ensures full height for vertical centering */
+    padding: 20px;
+}
+
+#myInput2{
+    top: 200px;
+    left: 100px;
+    
+    margin: 5px;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 25px;
+    font-size: 18px; /* Increase text size */
+    padding: 10px;  /* Add padding for better spacing */
 }

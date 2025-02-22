@@ -34,8 +34,19 @@
                                     <div class="frame-wrapper">
                                         <div class="frame-3">
                                             
-                                            <div class="text-wrapper-2">Try searching something...</div>
-                                            <img class="iconamoon-search" src="/img/iconamoon_search-duotone.png" />
+                                            <div class="text-wrapper-2">
+                                                <input type="text" id="myInput" placeholder="Search" >
+                                                <img class="iconamoon-search" src="/img/iconamoon_search-duotone.png" />
+                                                <!-- <button onclick="enableInput()" id="buttonSearch">Search</button> -->
+                                                
+                                                <script>
+                                                function enableInput() {
+                                                    document.getElementById("myInput").removeAttribute("disabled");
+                                                }
+                                                </script>
+                                                
+                                            </div>
+                                            <!-- <img class="iconamoon-search" src="/img/iconamoon_search-duotone.png" /> -->
                                         </div>
                                     </div>
                                 </div>
