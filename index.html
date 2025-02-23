@@ -153,7 +153,47 @@
                                             <div class="rectangle-8"></div>
                                             <img class="img-2" src="img/solar_calendar-bold.png" />
                                             <a href="/health analysis/index.html"><img class="ic-round-supervisor" src="img/ic_round-supervisor-account.png" /></a>
-                                            <img class="img-2" src="img/ri_notification-fill.svg" />
+                                            <!-- <img class="img-2" src="img/ri_notification-fill.svg" /> -->
+
+
+
+                                            <img src="img/notification-fill.png" id="myImage">
+
+                                            <style>
+                                            #myImage {
+                                                display: none; /* Hides the image completely */
+                                            }
+                                            </style>
+                                            <button id="hide"onclick="toggleBox()"><img src="img/ri_notification-fill.svg" id="image2" onclick="changeImage()"></button>
+
+                                            <div id="overlayBox">
+                                                <ul>
+                                                    <li>Time for medicines.</li>
+                                                    <li>Don't miss the evening walk.</li>
+                                                    <li>Don't forget to keep yourself hydrated</li>
+                                                </ul>
+                                                <!-- <button onclick="toggleBox()">Close</button> -->
+                                            </div>
+                                            
+                                            
+
+                                            <script>
+                                            function changeImage() {
+                                                let img = document.getElementById("image2");
+                                                img.src = (img.src.includes("img/ri_notification-fill.svg")) ? "img/notification-fill.png" : "img/ri_notification-fill.svg";
+                                            }
+                                            </script>
+                                            <script>
+                                            function toggleBox() {
+                                                let box = document.getElementById("overlayBox");
+                                                box.style.display = (box.style.display === "none" || box.style.display === "") ? "block" : "none";
+                                            }
+                                            </script>
+
+
+                                            
+
+
                                             <img class="img-2" src="img/ri_settings-fill.png" />
                                             <img class="home" src="img/home.png" />
                                         </div>
