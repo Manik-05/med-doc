@@ -881,6 +881,39 @@
     height: 40px;
 }
 
+#image2{
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+#myImage{
+    position: relative;
+    width: 70px;
+    height: 70px;
+
+}
+
+#overlayBox {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: absolute;
+    top: 320px;  /* Adjust to position above existing items */
+    left: 350px;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+    padding: 20px;
+    background-color: rgba(170, 13, 170, 0.612);
+    /* border: 1px solid #ccc; */
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); */
+    text-align: left;
+    font-size: 20px;
+    z-index: 1000; /* Ensures it appears above other content */
+}
+
 .main-desktop-page .ic-round-supervisor {
     position: relative;
     width: 48px;
